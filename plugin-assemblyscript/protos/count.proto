@@ -1,0 +1,10 @@
+syntax = "proto3";
+package tutorial;
+
+option csharp_namespace = "Demo.Protobuf.Extism.Count";
+
+message CountVowelsMessage {
+  uint32 count              = 1;
+  optional string config    = 2;
+  string a                  = 3;
+}
